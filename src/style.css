@@ -11,7 +11,73 @@ body {
 }
 
 h1 {
-  color: black;
+  color: rgb(103, 94, 94);
   text-align: center;
   font-size: 40px;
+  font-family: 'Hina Mincho', serif;
+  padding: -5px 0px -5px 0px;
+}
+
+h2 {
+  font-size: 19px;
+  text-align: center;
+  padding: 0px 10px 0px 0px;
+}
+
+nav ul {
+  list-style: none;
+  background-color: rgb(28, 202, 222);
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+}
+nav li {
+  display: inline;
+  padding: 0px 8px 0px 8px;
+  font-size: 14px;
+}
+
+/* a:link */
+/* a:visited */
+/* a:focus */
+/* a:hover */
+/* a:active */
+nav a:link {
+  color: white;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  color: red;
+}
+
+footer ul {
+  list-style: none;
+  background-color: lightgray;
+  text-align: center;
+  padding: 13px 10px 13px 10px;
+}
+footer li {
+  display: inline;
+  padding: 0px 8px 0px 8px;
+  font-size: 13.5px;
+}
+
+main {
+  display: flex;
+}
+aside {
+  border: 1px solid cadetblue;
+  padding: 0.2px 3px 0.2px 3px;
+  margin-left: 1.5rem;
+  margin-right: 2rem;
+}
+p {
+  font-size: 14px;
+}
+footer a {
+  color: black;
+  font-size: 13.5px;
 }
