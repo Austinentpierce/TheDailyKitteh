@@ -22,6 +22,11 @@ h2 {
   font-size: 19px;
   text-align: center;
   padding: 0px 10px 0px 0px;
+  color: rgb(85, 85, 85);
+}
+h3 {
+  color: rgb(85, 85, 85);
+  font-size: 20px;
 }
 
 nav ul {
@@ -80,4 +85,7 @@ p {
 footer a {
   color: black;
   font-size: 13.5px;
+}
+ul {
+  font-size: 13px;
 }
