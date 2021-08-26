@@ -75,7 +75,7 @@ main {
 }
 aside {
   border: 1px solid cadetblue;
-  padding: 0px 3px 0px 3px;
+  padding: 0.4rem 0.4rem;
   margin-left: 1.25rem;
   margin-right: 1.25rem;
 }
